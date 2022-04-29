@@ -33,8 +33,6 @@ public class FlinkCDC {
         DataStreamSource<String> dataStreamSource = env.addSource(sourceFunction);
 
 
-
-
         // TODO - 3.直接数据打印
         dataStreamSource.print();
 
